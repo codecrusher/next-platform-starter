@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from 'public/logo.jfif';
+import logo from 'public/logo.jpg';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
