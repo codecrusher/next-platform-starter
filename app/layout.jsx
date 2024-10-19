@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" data-theme="forest">
+        <html lang="en" data-theme="lofi">
             <head>
                 <link rel="icon" href="/favicon.svg" sizes="any" />
             </head>
