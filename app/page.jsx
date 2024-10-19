@@ -1,15 +1,6 @@
 import Link from 'next/link';
-import { Card } from 'components/card';
-import { RandomQuote } from 'components/random-quote';
-import { Markdown } from 'components/markdown';
 import { ContextAlert } from 'components/context-alert';
 import { getNetlifyContext } from 'utils';
-
-const cards = [
-    { text: 'Hello', linkText: 'someLink', href: '/' }
-];
-
-
 
 const ctx = getNetlifyContext();
 
@@ -27,8 +18,6 @@ export default function Page() {
                     Get started
                 </Link>
             </section>
-
-            { !!cards?.length && <CardsGrid cards={cards} /> }
         </main>
     );
 }
