@@ -15,7 +15,7 @@ export default function Page() {
                     href="/"
                     className="btn btn-lg btn-primary sm:btn-wide"
                 >
-                    Get started
+                    Get started!
                 </Link>
             </section>
         </main>
