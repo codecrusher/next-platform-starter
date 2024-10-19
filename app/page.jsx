@@ -10,7 +10,7 @@ export default function Page() {
             <section className="flex flex-col items-start gap-3 sm:gap-4">
                 <ContextAlert />
                 <h1 className="mb-0">HeritageTree — Create your own heritage tree!</h1>
-                <p className="text-lg">Just drag and drop nodes and get started</p>
+                <p className="text-lg">Just drag and drop nodes in the tree.</p>
                 <Link
                     href="/"
                     className="btn btn-lg btn-primary sm:btn-wide"
